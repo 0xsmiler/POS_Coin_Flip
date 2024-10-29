@@ -12,8 +12,8 @@ const POS_AMOUNT = 50;
 
 const COIN_FLIP_AMOUNT = POS_AMOUNT * (10 ** DECIMALS); // 0.01 SOL in lamports (1 SOL = 1,000,000,000 lamports)
 
-// const HOUSE_PUBLIC_KEY = new PublicKey('APu8XaL1L8vHFiBdcVWxDcU2uouFiWJFMG8ePTW8mBPz'); // Replace with the house's public key-
-const HOUSE_PUBLIC_KEY = new PublicKey('6XRbeYdCysj3yn4rmveoipom9UHK9suM9FcNmFCKEQe'); // Replace with the house's public key
+const HOUSE_PUBLIC_KEY = new PublicKey('5MnKQCvQEEvYE5SomrTWvcovFVta7tr3HEsr4wV6b4sj'); // Replace with the house's public key-
+// const HOUSE_PUBLIC_KEY = new PublicKey('6XRbeYdCysj3yn4rmveoipom9UHK9suM9FcNmFCKEQe'); // Replace with the house's public key
 const POS_TOKEN_MINT_ADDRESS = new PublicKey("B8vV6An7xFF3bARB1cmU7TMfKNjjes2WvY7jWqiRc6K6");
 
 const CoinFlip = ({ coinFace = [heads, tails] }) => {
